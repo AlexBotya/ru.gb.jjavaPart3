@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="junit-jupiter-api-5.7.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/iCloudDrive/Java/Junit-Jupiter/junit-jupiter-api-5.7.1.jar!/" />
+      <root url="jar://$USER_HOME$/iCloudDrive/Java/Junit-Jupiter/junit-jupiter-engine-5.7.1.jar!/" />
+      <root url="jar://$USER_HOME$/iCloudDrive/Java/Junit-Jupiter/junit-jupiter-params-5.7.1.jar!/" />
+      <root url="jar://$USER_HOME$/iCloudDrive/Java/Junit-Jupiter/junit-platform-commons-1.7.1.jar!/" />
+      <root url="jar://$USER_HOME$/iCloudDrive/Java/Junit-Jupiter/junit-platform-engine-1.7.1.jar!/" />
+      <root url="jar://$USER_HOME$/iCloudDrive/Java/Junit-Jupiter/junit-platform-launcher-1.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
