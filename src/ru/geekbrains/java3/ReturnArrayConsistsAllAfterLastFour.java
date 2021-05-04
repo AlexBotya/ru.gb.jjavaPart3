@@ -4,10 +4,6 @@ public class ReturnArrayConsistsAllAfterLastFour {
     int[] array;
     int numberOfLastFour = -1;
 
-    ReturnArrayConsistsAllAfterLastFour() {
-
-    };
-
     private void findLastFourNumber(int[] array){
 
         for (int i = 0; i < array.length; i++) {
@@ -18,6 +14,7 @@ public class ReturnArrayConsistsAllAfterLastFour {
 
     public  int[] getResultArray(int[] array){
         this.array = array;
+        if (array==null || array.length == 0) throw new IllegalArgumentException();
         findLastFourNumber(array);
         int[] resultArray = new int[array.length - numberOfLastFour -1];
         for (int i = 0; i < resultArray.length; i++) {
